@@ -10,7 +10,6 @@ from marvel_characters.config import ProjectConfig, Tags
 from marvel_characters.models.basic_model import BasicModel
 import os
 
-
 # Set up Databricks or local MLflow tracking
 def is_databricks():
     return "DATABRICKS_RUNTIME_VERSION" in os.environ
